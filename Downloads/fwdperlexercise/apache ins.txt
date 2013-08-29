@@ -1,0 +1,27 @@
+1) TO RESTART APACHE SERVER:
+
+$ sudo service apache2 restart
+
+2)TO CHECK:
+
+localhost
+
+	we get,
+	"It Works!"
+
+3) sudo cp /etc/apache2/sites-available/default /etc/apache2/sites-available/result
+
+4) gksudo gedit /etc/apache2/sites-available/result
+
+5) Change the DocumentRoot to point to the new location. For example, /home/uthra/
+
+Change the Directory directive, replace <Directory /var/www/> to <Directory /home/uthra/>
+
+6) sudo a2dissite default && sudo a2ensite result
+
+7) sudo service apache2 restart
+
+8) type localhost in address bar
+
+9) chmod a+x news.pl
+

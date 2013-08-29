@@ -1,0 +1,10 @@
+class	class |\n{\n\t\n}
+#for	for (|; ; )
+{\n\t\n}
+#function	function |\n{\n\t\n}
+#if	if (|) {\n\t\n}
+#ife	if (|) {\n\t\n}\nelse {\n\t\n}
+#switch	switch(|) {\n\tcase ():;break;\n\tcase ():;break;\n}
+#while	while (|)\n{\n\t\n}
+#declare	declare(|);
+#
